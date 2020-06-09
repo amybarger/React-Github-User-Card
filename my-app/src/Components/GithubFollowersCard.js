@@ -35,7 +35,7 @@ console.log("Followers card props", props)
                     User: {props.user.login}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    Followers: {props.user.following}
+                    <a href={props.user.url}>Click here for profile.</a>
                 </Typography>
                 </CardContent>
             </CardActionArea>
